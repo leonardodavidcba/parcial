@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_qr2"
+        android:layout_width="318dp"
+        android:layout_height="500px"
+        android:layout_marginTop="250dp"
+        android:onClick="onclick"
+        android:text="QR- SCANNER"
+        app:srcCompat="@drawable/ic_qr_code_scanner"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/txt_datos"
+        android:layout_width="338dp"
+        android:layout_height="61dp"
+        android:text="TextView" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
